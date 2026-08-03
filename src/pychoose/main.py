@@ -71,7 +71,9 @@ class App(ctk.CTk):
 
     def reset(self):
         self.reset_colors(self)
-
+        self.frame_choice1.text_choice.delete("1.0", "end")
+        self.frame_choice2.text_choice.delete("1.0", "end")
+        
 def main():
     app = App()
     app.mainloop()
