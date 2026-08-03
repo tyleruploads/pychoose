@@ -9,16 +9,21 @@ The way pychoose does this is by letting the user type in their choices, click a
 
 
 ## Running & Installation
-You can run or install pychoose instantly with [uv](https://docs.astral.sh/uv/getting-started/installation/)
-
-### Running with uv
-```bash
-uvx --from git+https://github.com/tyleruploads/pychoose.git pychoose
-```
+You can run or install pychoose instantly with [uv](https://docs.astral.sh/uv/getting-started/installation/), or install with [pipx](https://pipx.pypa.io/stable/).
 
 ### Installing with uv
 ```bash
 uv tool install git+https://github.com/tyleruploads/pychoose.git
+```
+
+## Installing with pipx
+```bash
+pipx install git+https://github.com/tyleruploads/pychoose.git
+```
+
+### Running with uv
+```bash
+uvx --from git+https://github.com/tyleruploads/pychoose.git pychoose
 ```
 
 If you are unable to use [uv](https://docs.astral.sh/uv/getting-started/installation/), you can still manually run the file.
