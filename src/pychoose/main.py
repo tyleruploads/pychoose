@@ -30,6 +30,7 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.geometry('800x800')
+        self.title("pychoose")
         self.configure(fg_color="#FF9F50")
 
         self.label_app_name = ctk.CTkLabel(self, text="pychoose", text_color="white", font=("Arial", 20, "bold"))
